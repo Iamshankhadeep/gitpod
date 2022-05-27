@@ -103,6 +103,9 @@ spec:
         - mountPath: /chargebee
           name: chargebee-config
           readOnly: true
+        - mountPath: /stripe
+          name: stripe-config
+          readOnly: true
       dnsPolicy: ClusterFirst
       initContainers:
       - args:
