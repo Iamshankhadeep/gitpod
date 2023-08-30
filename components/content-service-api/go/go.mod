@@ -35,7 +35,7 @@ require (
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20201019141844-1ed22bb0c154 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.0 // indirect
 )
 
 replace github.com/gitpod-io/gitpod/common-go => ../../common-go // leeway
